@@ -3,7 +3,7 @@
 import requests
 from bs4 import BeautifulSoup
 
-url = "https://example.com/panchanga"
+url = "https://www.astroguru.life/"
 
 html = requests.get(url).text
 
